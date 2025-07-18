@@ -1,0 +1,15 @@
+{
+ "argv": [
+  "C:\\Users\\lnipu\\Projects\\Tiktok\\tiktokanalytics\\Scripts\\python.exe",
+  "-Xfrozen_modules=off",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "tiktokanalytics",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+}
