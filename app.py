@@ -99,8 +99,8 @@ def create_kpi_metrics(df):
         total_videos = len(df)
         st.markdown(f"""
         <div class="metric-card">
-            <h3>📹 Total Videos</h3>
-            <h2>{total_videos:,}</h2>
+            <h4>Total Videos</h4>
+            <h4>{total_videos:,}</h4>
         </div>
         """, unsafe_allow_html=True)
     
@@ -108,8 +108,8 @@ def create_kpi_metrics(df):
         avg_plays = df['stats_playCount'].mean()
         st.markdown(f"""
         <div class="metric-card">
-            <h3>▶️ Avg Views</h3>
-            <h2>{avg_plays:,.0f}</h2>
+            <h4>Avg Views</h4>
+            <h4>{avg_plays:,.0f}</h4>
         </div>
         """, unsafe_allow_html=True)
     
@@ -117,8 +117,8 @@ def create_kpi_metrics(df):
         avg_engagement = df['engagement_rate'].mean()
         st.markdown(f"""
         <div class="metric-card">
-            <h3>❤️ Avg Engagement</h3>
-            <h2>{avg_engagement:.1f}%</h2>
+            <h4>Avg Engagement</h4>
+            <h4>{avg_engagement:.1f}%</h4>
         </div>
         """, unsafe_allow_html=True)
     
@@ -126,8 +126,8 @@ def create_kpi_metrics(df):
         total_likes = df['stats_diggCount'].sum()
         st.markdown(f"""
         <div class="metric-card">
-            <h3>👍 Total Likes</h3>
-            <h2>{total_likes:,}</h2>
+            <h4>Total Likes</h4>
+            <h4>{total_likes:,}</h4>
         </div>
         """, unsafe_allow_html=True)
 
